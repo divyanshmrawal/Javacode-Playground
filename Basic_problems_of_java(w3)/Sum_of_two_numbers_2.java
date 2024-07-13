@@ -2,7 +2,7 @@
 //Write a Java program to print the sum of two numbers.
 
 //ANSWER-->
-public class Sum_of_two_numbers{
+public class Sum_of_two_numbers_2{
  public static void main(String[] args){
 
     //Creating 2 numbers
