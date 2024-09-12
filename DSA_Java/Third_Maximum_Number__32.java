@@ -5,21 +5,15 @@
 class Solution {
     public int thirdMax(int[] nums) {
         Arrays.sort(nums);
-        if(nums.length<3){
-            for(int i=1;i<nums.length;i++){
-                if(nums[0]<nums[i]){
-                nums[0]=nums[i];
-                }
+        int count=1;
+        for(int i=nums.length-1;i>0;i--){
+            if(nums[i]!=nums[i-1]){
+                count++;
+            }
+            if(count==3){
+                return nums[i-1];
             }
         }
-
-        else if(nums.length>=3){
-             for(int i=1;i<nums.length;i++){
-                if(nums[0]>nums[i]){
-                nums[0]=nums[i];
-                }
-            }
-        }
-        return nums[0];
+        return nums[nums.length-1];
     }
 }
