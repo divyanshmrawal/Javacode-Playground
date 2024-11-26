@@ -1,5 +1,5 @@
 //Using 3 pointer :--
-class Solution {
+class Solution{
     public ListNode reverseList(ListNode head) {
         // We start with three pointers:
         // 1. prev: This will keep track of the previous node we processed (starts as null).
