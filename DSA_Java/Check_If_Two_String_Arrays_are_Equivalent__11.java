@@ -3,7 +3,7 @@
 
 // A string is represented by an array if the array elements concatenated in order forms the string.
 
-//ANSWER-->
+//ANSWER->
 class Solution {
     public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
         StringBuilder st1=new StringBuilder();
