@@ -3,7 +3,7 @@
 
 // A zero-based permutation nums is an array of distinct integers from 0 to nums.length - 1 (inclusive).
 
-//ANSWER-->
+//ANSWER->
 class Solution {
     public int[] buildArray(int[] nums) {
         int ans[]=new int[nums.length];
@@ -13,3 +13,5 @@ class Solution {
         return ans;
     }
 }
+// Space complexity = O(n);
+// Time complexity = O(n);
