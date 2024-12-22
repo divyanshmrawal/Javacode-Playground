@@ -7,4 +7,6 @@ public static void main(String[] args){
     int x='z';
     System.out.print(x);
 }    
-}
+// }
+// Time Complexity: O(1)
+// Space Complexity: O(1)
