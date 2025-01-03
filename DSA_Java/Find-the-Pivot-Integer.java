@@ -15,16 +15,25 @@
 //ANSWER-->
 class Solution {
     public int pivotInteger(int n) {
-        int i=1,j=0,right=0;
-        while(right!=j){
-            for(j=i;j<=n;j++){
-                j=j+i;
+        // Calculate the total sum of integers from 1 to n
+        int totalSum = n * (n + 1) / 2;
+        
+        int leftSum = 0;
+        
+        for (int i = 1; i <= n; i++) {
+            // Update leftSum by adding i
+            leftSum += i;
+            
+            // Calculate the sum of integers from i to n
+            int rightSum = totalSum - leftSum + i;
+            
+            // If leftSum equals rightSum, we've found the pivot
+            if (leftSum == rightSum) {
+                return i;
             }
-            for(int k=i;k>=1;k--){
-             right=right+k;
-            }
-            i++;
         }
-        return i;
+        
+        // If no pivot found, return -1 (or an appropriate value)
+        return -1;
     }
 }
