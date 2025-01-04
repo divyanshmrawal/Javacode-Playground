@@ -28,3 +28,6 @@ public class Numbers_between_1_to_100_which_are_divisible_by_3_and_5_and_by_both
     
     }
 }
+
+//Space complexity:O(n)
+//time complexity:O(n)
