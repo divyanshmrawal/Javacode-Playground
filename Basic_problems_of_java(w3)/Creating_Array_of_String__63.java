@@ -21,3 +21,6 @@ public class  Creating_Array_of_String__63{
         System.out.println("New Array: " + Arrays.toString(arr_string));
     }
 }
+
+//Time complexity:O(n)
+//Space complexity:O(n)
