@@ -18,7 +18,7 @@
 // Input: head = [0]
 // Output: 0
 
-//ANSWER-->
+//ANSWER->
 class Solution {
     public int getDecimalValue(ListNode head) {
         ListNode temp=head;
