@@ -36,4 +36,6 @@ class Solution {
         // If no pivot found, return -1 (or an appropriate value)
         return -1;
     }
-}
+// }
+// Time Complexity:O(n)
+//  Space Complexity:O(1)
