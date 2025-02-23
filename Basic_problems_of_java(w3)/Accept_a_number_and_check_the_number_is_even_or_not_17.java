@@ -1,4 +1,4 @@
-//QUESTION
+//QUESTION-->
 //Write a Java program to accept a number and check whether the number is even or not. Prints 1 if the
 
 //ANSWER-->
