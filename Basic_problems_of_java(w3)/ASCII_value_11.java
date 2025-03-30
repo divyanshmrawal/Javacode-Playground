@@ -1,4 +1,4 @@
-//QUESTION-->
+//QUESTION->
 //Write a Java program to print the ASCII value of a given character.
 
 //ANSWER-->
